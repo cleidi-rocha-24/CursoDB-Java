@@ -11,7 +11,7 @@ public class BuscaNome {
             nomes[i] = scanner.nextLine();
         }
 
-        // Leitura do nome a ser buscado
+        // Leitura do nome buscacdo
         System.out.print("Informe um nome para buscar no vetor: ");
         String nomeBusca = scanner.nextLine();
 
@@ -23,7 +23,7 @@ public class BuscaNome {
             }
         }
 
-        // Exibição do resultado
+        // resultado
         if (achei) {
             System.out.println("Achei");
         } else {
